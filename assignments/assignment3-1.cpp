@@ -6,11 +6,10 @@ using namespace std;
 
 int main()
 {
-    char letter;
+    int classA, classB, classC;
+    classA=15;
+    classB=12;
+    classC=9;
 
-    letter=65;
-    cout << letter << endl;
-    letter=66;
-    cout << letter << endl;
     return 0;
 }
