@@ -22,7 +22,7 @@ int main()
     perM = (numM/total)*100;
     perF = (numF/total)*100;
     
-    cout << "Percentage of male students: " << total << endl;
-    cout << "Percentage of female students: " << total << endl;
-    return 0;
+    cout << "Percentage of male students: " << perM << endl;
+    cout << "Percentage of female students: " << perF << endl;
+
 }
