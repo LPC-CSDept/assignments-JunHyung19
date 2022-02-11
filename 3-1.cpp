@@ -26,4 +26,6 @@ int main()
     total = (classA * priceA) + (classB * priceB) + (classC * priceC);
 
     cout << "Total price for tickets sold: " << total << endl;
+
+    return 0;
 }
