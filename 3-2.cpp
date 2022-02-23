@@ -10,7 +10,7 @@ int main()
 {
     int numM,numF;
     int total;
-    double perM,perF;
+    float perM,perF;
 
     cout << "Enter number of male students in class: ";
     cin >> numM;
@@ -19,8 +19,8 @@ int main()
 
     total = numM+numF;
 
-    perM = 100*numM/total;
-    perF = 100*numF/total;
+    perM = 100.0*numM/total;
+    perF = 100.0*numF/total;
     
     cout << "Percentage of male students: " << perM;
     cout << "%.\n";
