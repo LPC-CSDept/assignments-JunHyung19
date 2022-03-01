@@ -15,7 +15,8 @@ int main()
     cout << "Enter the third month and its rain amount: ";
     cin >> month3 >> rain3;
 
-    double ravg = rain1+rain2+rain3/3;
+    double rtotal = rain1+rain2+rain3;
+    double ravg = rtotal/3;
 
     cout << "The average rainfall for " << month1 << ", " << month2 << ", and " << month3 << " is " << ravg << ".";
 
