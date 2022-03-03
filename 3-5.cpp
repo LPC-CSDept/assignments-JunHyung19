@@ -21,10 +21,11 @@ int main()
     double avg;
     avg=sum/3;
 
-    cout << setprecision(2) << fixed << avg << endl;
-    cout << num1 << endl;
-    cout << num2 << endl;
-    cout << num3 << endl; 
+    cout << "First random number: " << num1 << endl;
+    cout << "Second random number: " << num2 << endl;
+    cout << "Third random number: " << num3 << endl; 
+    cout << "Average: " << setprecision(2) << fixed << avg << endl;
+    
 
     return 0;
 
