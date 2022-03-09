@@ -23,11 +23,11 @@ int main()
     double avg;
     avg=sum/3;
 
-    cout<<"First random number: "<<num1<<endl;
-    cout<<"Second random number: "<<num2<<endl;
-    cout<<"Third random number: "<<num3<<endl;
-    cout<<"Sumnation of the three random numbers: "<<sum<<endl;
-    cout<<"Average of the three random numbers: "<<setprecision(5)<<fixed<<avg<<endl;
+    cout << "First random number: " << num1 << endl;
+    cout << "Second random number: " << num2 << endl;
+    cout << "Third random number: " <<num3 << endl;
+    cout << "Sumnation of the three random numbers: " << sum << endl;
+    cout << "Average of the three random numbers: " << setprecision(5) << fixed << avg << endl;
     
     return 0;
 }
