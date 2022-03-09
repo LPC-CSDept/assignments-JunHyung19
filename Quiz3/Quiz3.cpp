@@ -2,8 +2,6 @@
 //Professor Lee
 //CS 1
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
 #include <iomanip>
 using namespace std;
 
@@ -13,9 +11,9 @@ int main()
     srand(seed);
 
     double num1, num2, num3;
-    num1=rand()%100;
-    num2=rand()%100;
-    num3=rand()%100;
+    num1=rand();
+    num2=rand();
+    num3=rand();
 
     double sum;
     sum=num1+num2+num3;
@@ -27,7 +25,7 @@ int main()
     cout << "Second random number: " << num2 << endl;
     cout << "Third random number: " <<num3 << endl;
     cout << "Sumnation of the three random numbers: " << sum << endl;
-    cout << "Average of the three random numbers: " << setprecision(5) << fixed << avg << endl;
+    cout << "Average of the three random numbers: " << setprecision(5) << avg << endl;
     
     return 0;
 }
