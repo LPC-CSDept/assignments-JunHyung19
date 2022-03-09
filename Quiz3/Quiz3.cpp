@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -26,8 +27,7 @@ int main()
     cout<<"Second random number: "<<num2<<endl;
     cout<<"Third random number: "<<num3<<endl;
     cout<<"Sumnation of the three random numbers: "<<sum<<endl;
-    cout<<"Average of the three random numbers: "<<setprecision(5)<<fixed<<avg<<endl;
-
+    cout<<"Average of the three random numbers: "<<setprecision(2)<<fixed<<avg<<endl;
     
     return 0;
 }
