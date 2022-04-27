@@ -14,7 +14,7 @@ int main()
 
     Fahrenheit = 9/5.0*Celcius+32;
 
-    cout << "Celcius" << Celcius << " is " << Fahrenheit << " Fahrenheit.";
-
+    cout << Celcius << " Celcius" << " is " << Fahrenheit << " Fahrenheit.";
+ 
     return 0;
 }
