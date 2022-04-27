@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-    const int price=99;
+    int price=99;
     int numpack;//number of packages bought
-    const double p20=0.8, p30=0.7, p40=0.6, p50=0.5;
+    double p20=0.8, p30=0.7, p40=0.6, p50=0.5;
 
     cout<<"Enter number of packages sold: ";
     cin>>numpack;
