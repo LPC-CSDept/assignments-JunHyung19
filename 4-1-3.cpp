@@ -25,7 +25,7 @@ int main()
     exit(0);
     if (pw>20)
     exit(0);
-    if (d<0)
+    if (d<10)
     exit(0);
     if (d>3000)
     exit(0);
