@@ -12,8 +12,11 @@ int main()
     cout<<"Input the first and last number of your range: ";
     cin>>begin>>end;
 
-        if (begin>end)
-            cout<<"error"<<endl;
+        while (begin>end)
+        {
+            cout<<"Error try again: "<<endl;
+            cin>>begin>>end;
+        }
 
     for(i=begin;i<end;i++){
         for(j=2;j<(i/2);j++)

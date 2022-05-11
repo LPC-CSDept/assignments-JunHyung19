@@ -5,19 +5,12 @@ using namespace std;
 
 int main()
 {
-    char ch;
-    ch='a';
+    int a,b,c;
 
-    switch(ch){
-        case'a':
-            cout<<"ayy\n";
-        case'b':
-            cout<<"lmao\n";        
-        case'c':
-            cout<<"coolio\n";
-        default:
-            cout<<"bruh\n";
-    }
+    a=1200;
+    b=144;
+    c=a%b;
+    cout<<c;
 
 
 }
