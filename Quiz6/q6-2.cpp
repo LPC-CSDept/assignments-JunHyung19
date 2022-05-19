@@ -25,6 +25,14 @@ int  findMin(int n1, int n2, int n3)
         else
             return n3;
     }
+
+void printResult(int n1, int n2, int n3, int min)
+    {
+        cout<<"n1="<<n1<<endl;
+        cout<<"n2="<<n2<<endl;
+        cout<<"n3="<<n3<<endl;
+        cout<<"Minimum value: "<<min<<endl;
+    }
     
 
 int main()
