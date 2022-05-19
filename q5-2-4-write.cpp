@@ -24,4 +24,6 @@ int main()
     cin>>num;
     ofs<<num<<endl;
     
+    for(int i=0;i<num;i++)
+        cin>>id>>nam>>dep>>sal;
 }
