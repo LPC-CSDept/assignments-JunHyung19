@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    int begin,end;
+    int begin,end,i,j;
 
     cout<<"Input the first and last number of your range: ";
     cin>>begin>>end;
