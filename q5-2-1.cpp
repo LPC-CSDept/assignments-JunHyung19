@@ -20,13 +20,13 @@ int main()
     n5=rand()%100;
 
     {
-        if (n1>n2 && n1>n3 && n1>n4 && n1>n5)
+        if (n1<n2 && n1<n3 && n1<n4 && n1<n5)
         min=n1;
-        else if (n2>n1 && n2>n3 && n2>n4 && n2>n5)
+        else if (n2<n1 && n2<n3 && n2<n4 && n2<n5)
         min=n2;
-        else if (n3>n1 && n3>n2 && n3>n4 && n3>n5)
+        else if (n3<n1 && n3<n2 && n3<n4 && n3<n5)
         min=n3;
-        else if (n4>n1 && n4>n2 && n4>n3 && n4>n5)
+        else if (n4<n1 && n4<n2 && n4<n3 && n4<n5)
         min=n4;
         else 
         min=n5;
