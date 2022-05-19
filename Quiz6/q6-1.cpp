@@ -5,8 +5,8 @@
 #include <iomanip>
 using namespace std;
 
-void swap(int &, int &);
-void swap(float &, float &);
+void swapTwoValues(int &n1, int &n2);
+void swapTwoValues(float &f1, float &f2);
 
 int main()
 
@@ -21,7 +21,7 @@ int main()
     swap(n1,n2);
     swap(f1,f2);
 
-    cout<<"n1="<<n1<<"n2="<<n2<<endl;
-    cout<<"f1="<<f1<<"f2="<<f2<<endl;
+    cout<<"n1="<<n1<<" "<<"n2="<<n2<<endl;
+    cout<<"f1="<<f1<<" "<<"f2="<<f2<<endl;
 
 }
