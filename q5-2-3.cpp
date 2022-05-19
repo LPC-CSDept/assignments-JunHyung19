@@ -29,3 +29,4 @@ int main()
             if(j>(i/j))cout<<i<<endl;
     }
 }
+//Can't seem to output 5
