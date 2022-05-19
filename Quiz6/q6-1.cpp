@@ -21,4 +21,7 @@ int main()
     swap(n1,n2);
     swap(f1,f2);
 
+    cout<<"n1="<<n1<<"n2="<<n2<<endl;
+    cout<<"f1="<<f1<<"f2="<<f2<<endl;
+
 }
