@@ -17,6 +17,11 @@ int main()
     ofs.open("employee.txt");
     if (!ofs)
     {
-        
-    } 
+        cout<<"Error"<<endl;
+        exit(0);
+    }
+
+    cin>>num;
+    ofs<<num<<endl;
+    
 }
