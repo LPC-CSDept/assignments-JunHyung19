@@ -23,10 +23,17 @@ int main()
         else
             num=0;
     }
+
     for (i=0;i<num;i++)
     {
         cout<<np<<endl;
         np*=n;
+    }
+    {
+        if (m<0)
+            inp=1/np;
+        else 
+            inp=np;
     }
 
 }
