@@ -16,8 +16,9 @@ int main()
 
     cout<<"Input n1 and n2: "<<endl;
     cin>>n1>>n2;
+    cout<<"Input f1 and f2: "<<endl;
+    cin>>f1>>f2;
     swap(n1,n2);
-
-    
+    swap(f1,f2);
 
 }
