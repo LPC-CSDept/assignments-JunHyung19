@@ -25,5 +25,9 @@ int main()
     ofs<<num<<endl;
     
     for(int i=0;i<num;i++)
+    {
         cin>>id>>nam>>dep>>sal;
+        ofs<<id<<" "<<nam<<" "<<dep<<" "<<sal<<endl;
+    }
+    ofs.close( );
 }
