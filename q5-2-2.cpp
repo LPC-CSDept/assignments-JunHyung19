@@ -35,5 +35,5 @@ int main()
         else 
             inp=np;
     }
-
+    cout<<inp<<endl;
 }
