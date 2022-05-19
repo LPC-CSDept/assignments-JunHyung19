@@ -28,5 +28,4 @@ int main()
             if(!(i%j))break;
             if(j>(i/j))cout<<i<<endl;
     }
-
 }
