@@ -15,5 +15,18 @@ int main()
     cout<<"Input the m value: ";
     cin>>m;
 
-    
+    {
+        if (m>0)
+            num=m;
+        else if (m<0)
+            num=m*-1;
+        else
+            num=0;
+    }
+    for (i=0;i<num;i++)
+    {
+        cout<<np<<endl;
+        np*=n;
+    }
+
 }
