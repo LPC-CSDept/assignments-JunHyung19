@@ -16,6 +16,11 @@ int main()
         cout<<"Error try again: "<<endl;
         cin>>begin>>end;
     }
+    while(begin<1||end>100)
+    {
+        cout<<"Error try again: "<<endl;
+        cin>>begin>>end;
+    }
 
     for(i=begin;i<end;i++)
     {
