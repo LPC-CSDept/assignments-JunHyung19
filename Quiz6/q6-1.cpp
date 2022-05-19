@@ -5,12 +5,15 @@
 #include <iomanip>
 using namespace std;
 
-void swap(int n1, int n2);
-void swap(float f1, float f2);
+void swap(int &, int &);
+void swap(float &, float &);
 
 int main()
 
 {
     int n1,n2;
+
+    cout<<"Input n1 and n2: "
+    cin>>
 
 }
