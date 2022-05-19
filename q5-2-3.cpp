@@ -10,4 +10,11 @@ int main()
 
     cout<<"Input the first and last number of your range: ";
     cin>>begin>>end;
+
+    while (begin>end)
+    {
+        cout<<"Error try again: "<<endl;
+        cin>>begin>>end;
+    }
+
 }
