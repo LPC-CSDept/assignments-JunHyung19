@@ -14,15 +14,15 @@ int main()
     int score1,score2;//student scores
     int sum,avg;
 
-    ifs.open("student.txt");
+    ifs.open("student.txt");//to open the txt file
     if (!ifs)
     {
         cout<<"Error"<<endl;
-        exit(0);
+        exit(0);//if error is present, it will stop running the code
     }
-    ifs>>num;
+    ifs>>num;//looks at the first value, which is the number of students
 
-    for(int i=0;i<num;i++)
+    for(int i=0;i<num;i++)//looks through the students
     {
         ifs>>name>>score1>>score2;
         sum=score1+score2;
