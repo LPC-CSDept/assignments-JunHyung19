@@ -11,7 +11,8 @@ int main()
     ifstream ifs;
     int num;//number of students
     string name;//student name
-    
+    int score;//student score
+
 
 
 }
