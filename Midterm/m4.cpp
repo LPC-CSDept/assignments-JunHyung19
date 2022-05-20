@@ -20,6 +20,12 @@ int getRdnum(int n1)
     return rand()%(101-n1)+n1;
 }
 
+int getRdnum(int n1,int n2)
+{
+    srand(time(NULL));
+    return rand()%(n2-n1)+n1;    
+}
+
 int main()
 {
 
