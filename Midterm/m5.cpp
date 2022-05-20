@@ -38,13 +38,23 @@ int main()
     int n1,n2;
     double result;
 
-    ofs.open("question5.txt");
+    ofs.open("question5.txt");//to open the txt file
     if (!ofs)
     {
         cout<<"Error"<<endl;
         exit(0);
     }
 
-    getInput(n1,n2);
+    getInput(n1,n2);//input two numbers
+    if(isSame(n1,n2)==1)
+    {
+        cout<<"Numbers are the same";
+        exit;
+    }
+    else
+    {
+        result=intDivision(n1,n2);
+        cout<<"Result: "<<endl;
+    }
 
 }
