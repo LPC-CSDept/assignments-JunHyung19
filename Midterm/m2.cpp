@@ -9,5 +9,9 @@ using namespace std;
 int main()
 {
     ifstream ifs;
+    int num;//number of students
+    string name;//student name
+    
+
 
 }
