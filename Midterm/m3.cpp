@@ -6,15 +6,25 @@
 using namespace std;
 
 int p=51;//for preceding number
-int getRdnum(void);//generates the random numbers
+int getRdnum(void)//generates the random numbers
 {
-    int x=rand()%50;//random number between 1 and 50
+    int x=rand()%50;//random number x between 1 and 50
     return x;//generated number returned
 }
 
-int isGreater(int n);
+int isGreater(int n)//to check whether or not a number is greater than the preceding number
 {
     if(n>p)
+    {
+        p=n;
+        return 1;
+    }
+    else
+    {
+        p=n;
+        return 0;
+    }
+    return 1;
 }
 
 int main()
@@ -35,3 +45,4 @@ int main()
     }
     ofs.close( );
 }
+//initial errors due to unwanted brackets
