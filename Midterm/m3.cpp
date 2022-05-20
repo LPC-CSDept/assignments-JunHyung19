@@ -5,7 +5,17 @@
 #include <fstream>
 using namespace std;
 
-int getRdnum(void);
+int p=51;//for preceding number
+int getRdnum(void);//generates the random numbers
+{
+    int x=rand()%50;//random number between 1 and 50
+    return x;//generated number returned
+}
+
+int isGreater(int n);
+{
+    if(n>p)
+}
 
 int main()
 {
