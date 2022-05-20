@@ -12,7 +12,16 @@ int main()
     int num;//number of students
     string name;//student name
     int score;//student score
+    int sum,avg;
 
+    ifs.open("student.txt");
+    if (!ifs)
+    {
+        cout<<"Error"<<endl;
+        exit(0);
+    }
+    ifs>>num;
 
+    
 
 }
