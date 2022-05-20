@@ -29,6 +29,4 @@ int main()
         avg=sum/2;
         cout<<"Name: "<<name<<"\t"<<"Score 1: "<<score1<<"\t"<<"Score 2: "<<score2<<"\t"<<"Sum: "<<sum<<"\t"<<"Avg: "<<avg<<endl;
     }
-
-    
 }
