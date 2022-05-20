@@ -27,7 +27,7 @@ double intDivision(int&n1,int&n2)//to see which number should be divided by the 
         return n2/n1;
 }
 
-void fileWrite(double result)
+void fileWrite(double result)//function to put the division result into a file
 {
     ofstream ofs;
 }
