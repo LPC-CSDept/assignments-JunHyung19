@@ -30,7 +30,7 @@ int isGreater(int n)//to check whether or not a number is greater than the prece
 int main()
 {
     ofstream ofs;
-    int N=10,n,i;
+    int N=10,n,i,f;
 
     ofs.open("numbers.txt");
     if (!ofs)
@@ -42,6 +42,8 @@ int main()
     {
         n=getRdnum();
         cout<<n<<" ";
+        if(isGreater(n))
+        
     }
     ofs.close( );
 }
