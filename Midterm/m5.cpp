@@ -16,12 +16,20 @@ void getInput(int&n1,int&n2)//to get the two user input numbers
 int isSame(int&n1,int&n2)//to check if the numbers are the same, which shouldn't be the case
 {
     if(n1=n2)
-    exit;
+    return 1;
 }
 
-int intDivision(int&n1,int&n2)
+double intDivision(int&n1,int&n2)
+{
+    if(n1>n2)
+        return n1/n2;
+    else
+        return n2/n1;
+}
 
 int main()
 {
-
+    int n1,n2;
+    double result;
+    
 }
