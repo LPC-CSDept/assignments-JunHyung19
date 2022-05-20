@@ -28,5 +28,7 @@ int getRdnum(int n1,int n2)
 
 int main()
 {
-
+    cout<<getRdnum()<<endl;
+    cout<<getRdnum()<<endl;
+    cout<<getRdnum()<<endl;    
 }
