@@ -27,7 +27,7 @@ int main()
         ifs>>name>>score1>>score2;
         sum=score1+score2;
         avg=sum/2;
-        cout<<name<<"\t"<<score1<<"\t"<<score2<<endl;
+        cout<<"Name: "<<name<<"\t"<<"Score 1: "<<score1<<"\t"<<"Score 2: "<<score2<<"\t"<<"Sum: "<<sum<<"\t"<<"Avg: "<<avg<<endl;
     }
 
 
