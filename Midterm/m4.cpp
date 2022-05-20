@@ -26,7 +26,7 @@ int getRdnum(int n1,int n2)
     return rand()%(n2-n1)+n1;//to get a random number from n1+1 to n2
 }
 
-int main()
+int main()//spits out results
 {
     int n1,n2;
     cout<<getRdnum()<<endl;
