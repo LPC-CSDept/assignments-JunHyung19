@@ -14,13 +14,12 @@ int main()
     printtriangle(numbers, SIZE);
 }
 
-void printtriangle(int num[][3], int size)
+void printtriangle(int num[][3], int SIZE)
 {
-    int numbers;
-    for(int i=0;i<3;i++)
+    int numbers,SIZE=3;
+    for(int i=0;i<SIZE;i++)//for loop, i for column, j for row 
     {
-        for(int j=0;j<=i;j++)
-            cout<<numbers[i][j];
-        cout<<endl;
+        for(int j=0;j<=i;j++)//First (0,0). Then (1,0) and (1,1). Then (2,0),(2,1),(2,2)
+        cout<<numbers[i][j]<<endl;
     }
 }
