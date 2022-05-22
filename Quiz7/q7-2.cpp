@@ -16,5 +16,11 @@ int main()
 
 void printtriangle(int num[][3], int size)
 {
-
+    int numbers;
+    for(int i=0;i<3;i++)
+    {
+        for(int j=0;j<=i;j++)
+            cout<<numbers[i][j];
+        cout<<endl;
+    }
 }
