@@ -16,10 +16,15 @@ int findmax(int number[], int from, int to)
     return max;
 }
 
-const int N = 10;
+
 
 int main()
 {
+    const int N = 10;
     int number[N] = {10, 15, 0, -25, 19, 20, 25, 30, 45, 20};
 
+    for(i=0;i<N;i++)
+    {
+        
+    }
 }
