@@ -21,20 +21,22 @@ int main()
  printvector(number);
  deleteone(number);
 }
+
 void makevector(vector<int> &vec, int size)
 {
  for(int i=0; i<size; i++)
          vec.push_back(rand() % 10);
 }
+
 void printvector(vector<int> vec)
 {
  for(int v : vec)
           cout << v << "\t";
  cout << endl;
 }
+
 void deleteone(vector<int> &vec)
 {
-
       int usernum;
       int deletecnt=0;
 
@@ -46,9 +48,7 @@ void deleteone(vector<int> &vec)
         vec.erase(vec.begin()+i);//erases element
         deletecnt++;//+1 is added to 'deletecnt' each time
       }
-    //end
-
-      cout << usernum << "is deleted " << deletecnt << " times \n";
- printvector(vec);//semicolon missing
- 
+        //end
+    cout << usernum << "is deleted " << deletecnt << " times \n";
+    printvector(vec);//semicolon missing
 }
