@@ -36,12 +36,19 @@ void deleteone(vector<int> &vec)
 {
 
       int usernum;
+      int deletecnt=0;
 
       cin >> usernum;
 
-      // Your Code 
+      // Your Code
+      for(int i=0;i<vec.size();i++)//for loop
+      {
+        vec.erase(vec.begin()+i);//erases element
+        deletecnt++;//+1 is added to 'deletecnt' each time
+      }
+    //end
 
       cout << usernum << "is deleted " << deletecnt << " times \n";
- printvector(vec)
+ printvector(vec);//semicolon missing
  
 }
