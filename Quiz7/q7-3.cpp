@@ -2,7 +2,13 @@
 //Professor Lee
 //CS 1
 #include <iostream>
-#include <cmath>
+
+int findmax(int number[], int from, int to)
+{
+    int max=number[from];
+    for(int i=from+1;i<=to;i++)
+}
+
 
 const int N = 10;
 
