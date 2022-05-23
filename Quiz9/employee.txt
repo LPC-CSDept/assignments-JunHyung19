@@ -1,0 +1,23 @@
+123456
+John Doe
+140000
+Computer
+Jan 31 2020
+
+567890
+Joe Mah
+85000
+Human
+Feb 28 2020
+
+069420
+Jerry Kan
+90000
+Records
+Aug 12 2019
+
+654431
+Kikka Rikka
+200000
+Sales
+Apr 21 2021

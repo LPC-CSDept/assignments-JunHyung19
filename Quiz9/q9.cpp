@@ -38,3 +38,26 @@ int main()
         printemployee(s[i]);
     }
 }
+
+int makeStructArray(employee s[])
+{
+    ifstream ifs;
+    int idx;
+
+    ifs.open("employee.txt");
+        if (!ifs)
+        {
+            cout<<"Error"<<endl;
+            exit(0);
+        }
+        ifs>>num;
+
+        for(int i=0;i<num;i++)
+        {
+            ifs>>id>>nam>>dep>>sal;
+            tot+=sal;
+            cout<<id<<"\t"<<nam<<"\t"<<dep<<"\t"<<sal<<endl;
+        }
+        avg=tot/num;
+        cout<<"Total Amount:\t"<<tot<<"\t"<<"Salary Average:\t"<<avg<<endl;
+}
