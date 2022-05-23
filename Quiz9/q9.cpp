@@ -6,13 +6,20 @@
 #include <string>
 using namespace std;
 
+struct date
+{
+    int month;
+    int day;
+    int year;
+};
+
 struct employee
 {
     int id;//ID number
     string name;//employee name
     double sal;//annual salaries
     string dep;//department name
-    string date;//starting work date
+    date screcord;//starting work date
 };
 
 void printemployee(employee s);
@@ -27,4 +34,7 @@ int main()
 
     numrec = makeStructArray(s);
     for(int i=0;i<numrec;i++)
+    {
+        printemployee(s[i]);
+    }
 }
