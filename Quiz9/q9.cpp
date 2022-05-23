@@ -32,7 +32,6 @@ int main()
     int numrec;
     employee s[50];
     string username;
-    
 
     numrec = makeStructArray(s);
     for(int i=0;i<numrec;i++)
@@ -42,8 +41,8 @@ int main()
 
 }
 
-int makeStructArray(employee s[])
+
+void printemployee(employee s)
 {
-    
-    
+    cout<<s.id<<"\t"<<s.name<<"\t"<<s.sal<<"\t"<<s.dep<<"\t"<<s.screcord.date<<endl;
 }
