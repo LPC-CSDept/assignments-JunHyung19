@@ -6,7 +6,8 @@
 #include <string>
 using namespace std;
 
-struct date
+
+struct date//to put date(month day year)
 {
     int month;
     int day;
@@ -31,24 +32,18 @@ int main()
     int numrec;
     employee s[50];
     string username;
+    
 
     numrec = makeStructArray(s);
     for(int i=0;i<numrec;i++)
     {
         printemployee(s[i]);
     }
+
 }
 
 int makeStructArray(employee s[])
 {
-    ifstream ifs;
-    int idx;
-
-    ifs.open("employee.txt");
-        if (!ifs)
-        {
-            cout<<"Error"<<endl;
-            exit(0);
-        }
-        
+    
+    
 }
