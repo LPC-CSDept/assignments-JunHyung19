@@ -4,7 +4,8 @@
 #include <iostream>
 using namespace std;
 
-void 
+int makearray(int numbers1[], numbers2[]);
+void makearray(int numbers1[], numbers[]);
 
 int main()
 {
