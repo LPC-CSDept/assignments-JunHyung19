@@ -1,11 +1,11 @@
 //Jonathan Park
 //Professor Lee
 //CS 1
-#include    <iostream>
-#include    <fstream>
-#include    <iomanip>
-#include    <string>
-#include    <sstream>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <string>
+#include <sstream>
 using namespace std;
 
 //copied from prompt and professor's github
