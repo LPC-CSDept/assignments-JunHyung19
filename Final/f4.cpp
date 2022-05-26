@@ -5,6 +5,7 @@
 #include    <fstream>
 #include    <iomanip>
 #include    <string>
+#include    <sstream>
 using namespace std;
 
 //copied from prompt
