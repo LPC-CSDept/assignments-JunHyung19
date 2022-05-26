@@ -5,7 +5,7 @@
 using namespace std;
 
 int makearray(int numbers1[], numbers2[]);
-void makearray(int numbers1[], numbers[]);
+void makearray(int numbers1[], numbers2[]);
 
 int main()
 {
