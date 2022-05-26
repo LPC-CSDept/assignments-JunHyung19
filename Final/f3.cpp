@@ -5,7 +5,7 @@
 using namespace std;
 
 int makeArray(int numbers1[], int numbers2[]);
-void makeArray(int numbers1[], int numbers2[], int SIZE1, int SIZE2);
+void printArray(int numbers1[], int numbers2[], int SIZE1, int SIZE2);
 
 int main()
 {
