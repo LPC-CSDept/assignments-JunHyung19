@@ -26,4 +26,3 @@ void printout(int numbers[], int last) {
                 cout << numbers[i] << "\t";
         cout << endl;
 }
-//stuggling to use debugging
