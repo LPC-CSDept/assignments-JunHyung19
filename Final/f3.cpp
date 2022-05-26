@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void printArray(int numbers1[], int numbers2[]);
+int makeArray(int numbers1[], int numbers2[]);
 
 int main()
 {
