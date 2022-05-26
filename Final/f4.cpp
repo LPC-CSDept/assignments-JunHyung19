@@ -8,7 +8,7 @@
 #include    <sstream>
 using namespace std;
 
-//copied from prompt
+//copied from prompt and professor's github
 const unsigned short N=5;
 struct  Scores{
     double  sc[N];
