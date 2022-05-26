@@ -15,7 +15,8 @@ int main()
     int numbers2[SIZE2] = {1, 2, 3, 5, 9, 10, 11, 13, 15, 17};
 }
 
-void printArray(int numbers1[], int numbers2[], int SIZE1, int SIZE2)
+int makeArray(int numbers1[], int numbers2[])
 {
-    
+    int numbers1,numbers2;
+    for(i=0;i<SIZE1;i++)
 }
